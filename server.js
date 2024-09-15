@@ -15,6 +15,12 @@ app.use(express.json());
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 // Endpoint to handle AI requests
+// Endpoint to handle AI requests
+app.post('/homes', async (req, res) => { 
+    console.log("Home page");
+    res.json("This is home page"); });
+
+
 app.post('/api/generate', async (req, res) => {
   const { messageContent } = req.body;
 

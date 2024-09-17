@@ -8,10 +8,10 @@ const app = express();
 const port = 5000;
 
 // origin: 'https://boisterous-pasca-6d8906.netlify.app', old
-// origin: 'https://hilarious-crepe-b8b2cf.netlify.app',new
+// origin: 'https://dashing-quokka-3b6587.netlify.app/',new
 // Configure CORS to allow requests from your Netlify domain
 const corsOptions = {
-  origin: 'https://hilarious-crepe-b8b2cf.netlify.app', // Replace with your Netlify domain
+  origin: 'https://dashing-quokka-3b6587.netlify.app', // Replace with your Netlify domain
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Enable sending cookies with requests
   allowedHeaders: 'Content-Type,Authorization',

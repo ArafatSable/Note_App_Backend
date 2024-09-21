@@ -13,7 +13,8 @@ const port = 5000;
 const corsOptions = {
     origin: [
     'https://dashing-quokka-3b6587.netlify.app', 
-    'https://boisterous-pasca-6d8906.netlify.app'
+    'https://boisterous-pasca-6d8906.netlify.app'',
+    'https://playful-swan-996576.netlify.app'
   ],  // Replace with your Netlify domain
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Enable sending cookies with requests
